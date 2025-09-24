@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Heritage color extensions
+        heritage: {
+          green: "hsl(var(--heritage-green))",
+          "green-foreground": "hsl(var(--heritage-green-foreground))",
+        },
+        traditional: {
+          blue: "hsl(var(--traditional-blue))",
+          "blue-foreground": "hsl(var(--traditional-blue-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

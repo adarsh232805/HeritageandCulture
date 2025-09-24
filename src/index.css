@@ -2,41 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Indian Heritage Design System - Inspired by traditional colors and motifs */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base colors inspired by Indian heritage */
+    --background: 42 15% 98%;
+    --foreground: 20 20% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card and surface colors */
+    --card: 42 20% 96%;
+    --card-foreground: 20 20% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 42 20% 96%;
+    --popover-foreground: 20 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Saffron/Orange inspired by Indian flag */
+    --primary: 30 95% 55%;
+    --primary-foreground: 42 15% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Deep traditional red */
+    --secondary: 0 70% 45%;
+    --secondary-foreground: 42 15% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted tones */
+    --muted: 42 10% 92%;
+    --muted-foreground: 20 10% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Traditional gold */
+    --accent: 45 85% 50%;
+    --accent-foreground: 20 20% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Heritage green inspired by Indian flag */
+    --heritage-green: 120 65% 35%;
+    --heritage-green-foreground: 42 15% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Traditional blue */
+    --traditional-blue: 210 75% 45%;
+    --traditional-blue-foreground: 42 15% 98%;
 
-    --radius: 0.5rem;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 42 15% 98%;
+
+    --border: 42 20% 85%;
+    --input: 42 20% 88%;
+    --ring: 30 95% 55%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradients for Indian heritage theme */
+    --gradient-saffron: linear-gradient(135deg, hsl(30 95% 55%), hsl(15 85% 50%));
+    --gradient-heritage: linear-gradient(135deg, hsl(30 95% 55%), hsl(0 70% 45%));
+    --gradient-royal: linear-gradient(135deg, hsl(45 85% 50%), hsl(30 80% 45%));
+    --gradient-traditional: linear-gradient(180deg, hsl(42 15% 98%), hsl(42 10% 95%));
+    
+    /* Shadows with heritage colors */
+    --shadow-heritage: 0 10px 30px -10px hsl(30 95% 55% / 0.3);
+    --shadow-royal: 0 15px 40px -12px hsl(45 85% 50% / 0.4);
+    --shadow-soft: 0 4px 20px -4px hsl(20 20% 15% / 0.1);
+
+    /* Animations */
+    --transition-heritage: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s ease-in-out;
 
     --sidebar-background: 0 0% 98%;
 
